@@ -28,29 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnAgregar = new Button();
             btnEliminar = new Button();
             listBox1 = new ListBox();
             label1 = new Label();
+            button1 = new Button();
             SuspendLayout();
-            // 
-            // btnAgregar
-            // 
-            btnAgregar.Location = new Point(192, 57);
-            btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(94, 29);
-            btnAgregar.TabIndex = 0;
-            btnAgregar.Text = "button1";
-            btnAgregar.UseVisualStyleBackColor = true;
-            btnAgregar.Click += btnAgregar_Click;
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(192, 128);
+            btnEliminar.Location = new Point(177, 127);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(94, 29);
             btnEliminar.TabIndex = 1;
-            btnEliminar.Text = "button2";
+            btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
             // 
             // listBox1
@@ -70,15 +60,25 @@
             label1.TabIndex = 3;
             label1.Text = "Lista de personas ";
             // 
+            // button1
+            // 
+            button1.Location = new Point(177, 52);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 4;
+            button1.Text = "Agregar";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(302, 169);
+            Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(listBox1);
             Controls.Add(btnEliminar);
-            Controls.Add(btnAgregar);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -86,10 +86,9 @@
         }
 
         #endregion
-
-        private Button btnAgregar;
         private Button btnEliminar;
         private ListBox listBox1;
         private Label label1;
+        private Button button1;
     }
 }

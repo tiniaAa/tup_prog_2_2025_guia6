@@ -8,7 +8,7 @@ namespace Ejercicio_3.Models
 {
     internal class FormatoNombreNoValidoExeprion: ApplicationException
     {
-        public FormatoNombreNoValidoExeprion()
+        public FormatoNombreNoValidoExeprion():base ("El nombre ingresado no cumple con el formato 'Apellido Nombre(s)'")
         {
 
         }

@@ -8,7 +8,7 @@ namespace Ejercicio_3.Models
 {
     internal class FormatoCUITNoValidoExeption: ApplicationException
     {
-       public FormatoCUITNoValidoExeption():base ("CUIT no valido ")
+       public FormatoCUITNoValidoExeption():base ("El cuit debe tener 11 digitos numericos y se debe verificar con el digito verificador")
         {
 
         }

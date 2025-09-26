@@ -75,7 +75,7 @@
             // rdbnFisica
             // 
             rdbnFisica.AutoSize = true;
-            rdbnFisica.Location = new Point(29, 231);
+            rdbnFisica.Location = new Point(23, 203);
             rdbnFisica.Name = "rdbnFisica";
             rdbnFisica.Size = new Size(66, 24);
             rdbnFisica.TabIndex = 4;
@@ -86,7 +86,7 @@
             // rdbnJuridica
             // 
             rdbnJuridica.AutoSize = true;
-            rdbnJuridica.Location = new Point(143, 231);
+            rdbnJuridica.Location = new Point(137, 203);
             rdbnJuridica.Name = "rdbnJuridica";
             rdbnJuridica.Size = new Size(80, 24);
             rdbnJuridica.TabIndex = 5;
@@ -97,7 +97,7 @@
             // button1
             // 
             button1.DialogResult = DialogResult.OK;
-            button1.Location = new Point(12, 261);
+            button1.Location = new Point(6, 233);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 6;
@@ -107,7 +107,7 @@
             // button2
             // 
             button2.DialogResult = DialogResult.Cancel;
-            button2.Location = new Point(178, 261);
+            button2.Location = new Point(155, 233);
             button2.Name = "button2";
             button2.Size = new Size(94, 29);
             button2.TabIndex = 7;
@@ -134,7 +134,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(267, 280);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button2);
@@ -161,7 +161,7 @@
         public RadioButton rdbnJuridica;
         public Button button1;
         public Button button2;
-        private Label label1;
-        private Label label2;
+        public Label label1;
+        public Label label2;
     }
 }
